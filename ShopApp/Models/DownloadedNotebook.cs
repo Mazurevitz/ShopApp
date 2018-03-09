@@ -48,7 +48,7 @@ namespace ShopApp.Models
                 {
                     Console.WriteLine(matchedURLToImage.Value);
                     listOfImageDirectories.Add(matchedImageName.Value);
-                    DownloadImage(matchedURLToImage.Value, imageFolderPath, 0, 0, false);
+                    DownloadImage(matchedURLToImage.Value, imageFolderPath, 0, 0, false);   // for some reason, it's not working, although the same code in console app works perfectly?
                 }
             }
 
