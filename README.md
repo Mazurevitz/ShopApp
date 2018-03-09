@@ -8,6 +8,7 @@
 - :+1: Show description of each and miniature
 - :+1: Details avaiable
 - :question: Downloading notebooks photo 
-  - _working as a console app, no idea why_
+  - _working as a console app, not as a web app, no idea why_
 - :question: Putting raw iamge data to the database 
+  - _Very simple solution, just to take file location and display directly to user, dirty, quick solution_
   - _This should've been done via FileStream and decoding image into byte array, to do_
