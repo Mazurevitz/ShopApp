@@ -20,6 +20,10 @@
     <Compile Remove="Controllers\HomeController.cs" />
     <Compile Remove="Migrations\20180306001906_Second.cs" />
     <Compile Remove="Migrations\20180306001906_Second.Designer.cs" />
+    <Compile Remove="Migrations\20180315214712_ImageInBytes.cs" />
+    <Compile Remove="Migrations\20180315214712_ImageInBytes.Designer.cs" />
+    <Compile Remove="Migrations\20180315223305_ImagesBytes.cs" />
+    <Compile Remove="Migrations\20180315223305_ImagesBytes.Designer.cs" />
     <Compile Remove="Models\SeedData.cs" />
   </ItemGroup>
 

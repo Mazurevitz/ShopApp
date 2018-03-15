@@ -81,7 +81,7 @@ namespace ShopApp.Controllers
         // POST: Notebooks/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Name,GPU,RAM,Processor,ScreenSizeInch,RouteToImage"/*,ImageData,Length,Width,Height"*/)] Notebook notebook)
+        public async Task<IActionResult> Create([Bind("ID,Name,GPU,RAM,Processor,ScreenSizeInch,RouteToImage,ImageBytes"/*,ImageData,Length,Width,Height"*/)] Notebook notebook)
         {
             if (ModelState.IsValid)
             {
@@ -136,7 +136,7 @@ namespace ShopApp.Controllers
         // POST: Notebooks/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,GPU,RAM,Processor,ScreenSizeInch,RouteToImage"/*,ImageData,Length,Width,Height"*/)] Notebook notebook)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,GPU,RAM,Processor,ScreenSizeInch,RouteToImage,ImageBytes"/*,ImageData,Length,Width,Height"*/)] Notebook notebook)
         {
             if (id != notebook.ID)
             {

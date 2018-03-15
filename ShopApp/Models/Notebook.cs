@@ -17,5 +17,6 @@ namespace ShopApp.Models
         [DataType(DataType.Text)]
         public decimal ScreenSizeInch { get; set; }   
         public string RouteToImage { get; set; }
+        public byte[] ImageBytes { get; set; }
     }
 }

@@ -5,12 +5,13 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using IronWebScraper;
+using System.Drawing;
+using System.Net;
 
 namespace ShopApp.Models
 {
     public class DownloadedNotebook : WebScraper
     {
-
         public List<Notebook> notebookList = new List<Notebook>();
         private int countFeatures = 0;
         private Notebook notebook = new Notebook();
@@ -33,8 +34,11 @@ namespace ShopApp.Models
             DirectoryInfo di = Directory.CreateDirectory(imageFolderPath); // Create folder
 
             List<string> listOfImageDirectories = new List<string>();
+            List<string> listOfImageURLs = new List<string>();
 
-         
+
+            var webClient = new WebClient();
+
             foreach (var searched_link in response.Css("div.category-image > a[style*=background-image:url]")) // select category-image from every div, and then contains of a[]
             {
                 string strTitle = searched_link.Attributes["style"];
@@ -48,11 +52,13 @@ namespace ShopApp.Models
                 {
                     Console.WriteLine(matchedURLToImage.Value);
                     listOfImageDirectories.Add(matchedImageName.Value);
-                    DownloadImage(matchedURLToImage.Value, imageFolderPath, 0, 0, false);   // for some reason, it's not working, although the same code in console app works perfectly?
+                    listOfImageURLs.Add(matchedURLToImage.Value);
+                    //DownloadImage(matchedURLToImage.Value, imageFolderPath, 0, 0, false);   // for some reason, it's not working, although the same code in console app works perfectly?
                 }
             }
 
             int notebooksCounter = 1001;
+            int howManyNotebooks = 1001;
             decimal tempInch = 0;
             foreach (var searched_link in response.Css("div.feature-item")) // get every feature of the notebook
             {
@@ -85,7 +91,9 @@ namespace ShopApp.Models
                         break;
                     case 4:
                         notebook.Name = $"Notebook {notebooksCounter}";
-                        notebook.RouteToImage = listOfImageDirectories[notebooksCounter-1001];
+                        notebook.RouteToImage = listOfImageDirectories[notebooksCounter - howManyNotebooks];
+                        byte[] imageBytes = webClient.DownloadData(listOfImageURLs[notebooksCounter - howManyNotebooks]); // Download image directly to the byte array
+                        notebook.ImageBytes = imageBytes;
                         notebooksCounter++;
                         countFeatures = 0; // break cycle every 4th feature, becouse we are scraping next object in next iteration
                         notebookList.Add(notebook);
@@ -94,6 +102,11 @@ namespace ShopApp.Models
                     default:
                         break;
                 }
+            }
+
+            using (MemoryStream mStream = new MemoryStream())
+            {
+                
             }
         }
     }
