@@ -8,10 +8,5 @@
 - :+1: Lookup via GPU
   - _Could be easily expanded further_
 - :+1: Show description of each and miniature
-  - _Photo should be rescaled, to do_
 - :+1: Details available
-- :question: Downloading notebooks photo 
-  - _working as a console app, not as a web app, no idea why_
-- :question: Putting raw image data to the database 
-  - _Very simple solution, just to take file location and display directly to user, dirty, quick solution_
-  - _This should've been done via FileStream and decoding image into byte array, to do_
+- :+1: Putting raw image data as byte[] to the database and proper display
