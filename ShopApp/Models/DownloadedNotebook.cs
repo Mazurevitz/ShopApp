@@ -19,7 +19,7 @@ namespace ShopApp.Models
         public override void Init()
         {
             this.LoggingLevel = WebScraper.LogLevel.All;
-            this.Request("https://www.morele.net/laptopy/laptopy/notebooki-laptopy-ultrabooki-31/", Parse);
+            this.Request("https://www.morele.net/laptopy/laptopy/notebooki-laptopy-ultrabooki-31/,,,,,,,,0,,,,/1/", Parse);
         }
 
         public override void Parse(Response response)
@@ -35,9 +35,18 @@ namespace ShopApp.Models
 
             List<string> listOfImageDirectories = new List<string>();
             List<string> listOfImageURLs = new List<string>();
+            List<string> listOfNames = new List<string>();
+
 
 
             var webClient = new WebClient();
+
+
+            foreach (var searched_link in response.Css("div > a[title]")) // select category-image from every div, and then contains of a[]
+            {
+                string notebookName = searched_link.Attributes["title"];
+                listOfNames.Add(notebookName);
+            }
 
             foreach (var searched_link in response.Css("div.category-image > a[style*=background-image:url]")) // select category-image from every div, and then contains of a[]
             {
@@ -56,7 +65,7 @@ namespace ShopApp.Models
                     //DownloadImage(matchedURLToImage.Value, imageFolderPath, 0, 0, false);   // for some reason, it's not working, although the same code in console app works perfectly?
                 }
             }
-
+            
             int notebooksCounter = 1001;
             int howManyNotebooks = 1001;
             decimal tempInch = 0;
@@ -90,7 +99,7 @@ namespace ShopApp.Models
                         countFeatures++;
                         break;
                     case 4:
-                        notebook.Name = $"Notebook {notebooksCounter}";
+                        notebook.Name = listOfNames[notebooksCounter - howManyNotebooks];
                         notebook.RouteToImage = listOfImageDirectories[notebooksCounter - howManyNotebooks];
                         byte[] imageBytes = webClient.DownloadData(listOfImageURLs[notebooksCounter - howManyNotebooks]); // Download image directly to the byte array
                         notebook.ImageBytes = imageBytes;

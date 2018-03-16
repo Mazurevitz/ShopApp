@@ -7,8 +7,11 @@
 <h2>Details</h2>
 
 <div>
-    <h4>Notebook</h4>
+    <h4>
+        @Html.DisplayFor(model => model.Name)
+    </h4>
     <hr />
+        <img src="data:image;base64,@System.Convert.ToBase64String(Model.ImageBytes)" class="img-responsive" />
     <dl class="dl-horizontal">
         <dt>
             @Html.DisplayNameFor(model => model.Name)
@@ -40,36 +43,30 @@
         <dd>
             @Html.DisplayFor(model => model.ScreenSizeInch)
         </dd>
-        <dd>
-            @Html.DisplayNameFor(model => model.RouteToImage)
-        </dd>
-        <dd>
-            @Html.DisplayNameFor(model => model.ImageBytes)
-        </dd>
         @{/*<dt>
-      @Html.DisplayNameFor(model => model.ImageData)
-  </dt>
-  <dd>
-      @Html.DisplayFor(model => model.ImageData)
-  </dd>
-  <dt>
-      @Html.DisplayNameFor(model => model.Length)
-  </dt>
-  <dd>
-      @Html.DisplayFor(model => model.Length)
-  </dd>
-  <dt>
-      @Html.DisplayNameFor(model => model.Width)
-  </dt>
-  <dd>
-      @Html.DisplayFor(model => model.Width)
-  </dd>
-  <dt>
-      @Html.DisplayNameFor(model => model.Height)
-  </dt>
-  <dd>
-      @Html.DisplayFor(model => model.Height)
-  </dd>*/}
+            @Html.DisplayNameFor(model => model.ImageData)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ImageData)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Length)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Length)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Width)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Width)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Height)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Height)
+        </dd>*/}
     </dl>
 </div>
 <div>

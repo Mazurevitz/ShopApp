@@ -5711,3 +5711,903 @@
 {"Feature":"Intel Pentium N4200"}
 {"Feature":"15.6"}
 {"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 400"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3060"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 405"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N3710"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 505"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N4200"}
+{"Feature":"13.3"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics"}
+{"Feature":"2 GB"}
+{"Feature":"Intel Celeron N3050"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 500"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3350"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel HD Graphics 400"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3060"}
+{"Feature":"14"}
+{"Feature":"Brak"}
+{"Feature":"Intel HD Graphics 505"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N4200"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 520"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-6006U"}
+{"Feature":"15.6"}
+{"Feature":"Linux"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"AMD Radeon R4 (APU)"}
+{"Feature":"4 GB"}
+{"Feature":"AMD A6-9220"}
+{"Feature":"17.3"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel HD Graphics 520"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-6006U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"NVIDIA GeForce 940MX,Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel UHD Graphics 620"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-8250U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel UHD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-8250U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 620,NVIDIA GeForce MX150"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 630,AMD Radeon RX 560M"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-7300HQ"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel UHD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-8250U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 630,NVIDIA GeForce GTX 1050"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-7300HQ"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 630,NVIDIA GeForce GTX 1050 Ti"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i7-7700HQ"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"NVIDIA GeForce GTX 1060,Intel HD Graphics 630"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i7-7700HQ"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel Iris Pro Graphics"}
+{"Feature":"16 GB"}
+{"Feature":"Intel Core i7"}
+{"Feature":"15.4"}
+{"Feature":"macOS"}
+{"Feature":"Intel HD Graphics 500"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3350"}
+{"Feature":"13.3"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 505"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N4200"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 520"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-6006U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 400"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3060"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 405"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N3710"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 505"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N4200"}
+{"Feature":"13.3"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics"}
+{"Feature":"2 GB"}
+{"Feature":"Intel Celeron N3050"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 500"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3350"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel HD Graphics 400"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3060"}
+{"Feature":"14"}
+{"Feature":"Brak"}
+{"Feature":"Intel HD Graphics 505"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N4200"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 520"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-6006U"}
+{"Feature":"15.6"}
+{"Feature":"Linux"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"AMD Radeon R4 (APU)"}
+{"Feature":"4 GB"}
+{"Feature":"AMD A6-9220"}
+{"Feature":"17.3"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel HD Graphics 520"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-6006U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"NVIDIA GeForce 940MX,Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel UHD Graphics 620"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-8250U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel UHD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-8250U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 620,NVIDIA GeForce MX150"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 630,AMD Radeon RX 560M"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-7300HQ"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel UHD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-8250U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 630,NVIDIA GeForce GTX 1050"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-7300HQ"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 630,NVIDIA GeForce GTX 1050 Ti"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i7-7700HQ"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"NVIDIA GeForce GTX 1060,Intel HD Graphics 630"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i7-7700HQ"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel Iris Pro Graphics"}
+{"Feature":"16 GB"}
+{"Feature":"Intel Core i7"}
+{"Feature":"15.4"}
+{"Feature":"macOS"}
+{"Feature":"Intel HD Graphics 500"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3350"}
+{"Feature":"13.3"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 505"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N4200"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 520"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-6006U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 400"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3060"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 405"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N3710"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 505"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N4200"}
+{"Feature":"13.3"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics"}
+{"Feature":"2 GB"}
+{"Feature":"Intel Celeron N3050"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 500"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3350"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel HD Graphics 400"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3060"}
+{"Feature":"14"}
+{"Feature":"Brak"}
+{"Feature":"Intel HD Graphics 505"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N4200"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 520"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-6006U"}
+{"Feature":"15.6"}
+{"Feature":"Linux"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"AMD Radeon R4 (APU)"}
+{"Feature":"4 GB"}
+{"Feature":"AMD A6-9220"}
+{"Feature":"17.3"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel HD Graphics 520"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-6006U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"NVIDIA GeForce 940MX,Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel UHD Graphics 620"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-8250U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel UHD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-8250U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 620,NVIDIA GeForce MX150"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 630,AMD Radeon RX 560M"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-7300HQ"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel UHD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-8250U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 630,NVIDIA GeForce GTX 1050"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-7300HQ"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 630,NVIDIA GeForce GTX 1050 Ti"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i7-7700HQ"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"NVIDIA GeForce GTX 1060,Intel HD Graphics 630"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i7-7700HQ"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel Iris Pro Graphics"}
+{"Feature":"16 GB"}
+{"Feature":"Intel Core i7"}
+{"Feature":"15.4"}
+{"Feature":"macOS"}
+{"Feature":"Intel HD Graphics 500"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3350"}
+{"Feature":"13.3"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 505"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N4200"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 520"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-6006U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 400"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3060"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 405"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N3710"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 505"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N4200"}
+{"Feature":"13.3"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics"}
+{"Feature":"2 GB"}
+{"Feature":"Intel Celeron N3050"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 500"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3350"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel HD Graphics 400"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3060"}
+{"Feature":"14"}
+{"Feature":"Brak"}
+{"Feature":"Intel HD Graphics 505"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N4200"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 520"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-6006U"}
+{"Feature":"15.6"}
+{"Feature":"Linux"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"AMD Radeon R4 (APU)"}
+{"Feature":"4 GB"}
+{"Feature":"AMD A6-9220"}
+{"Feature":"17.3"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel HD Graphics 520"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-6006U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"NVIDIA GeForce 940MX,Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel UHD Graphics 620"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-8250U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel UHD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-8250U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 620,NVIDIA GeForce MX150"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 630,AMD Radeon RX 560M"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-7300HQ"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel UHD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-8250U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 630,NVIDIA GeForce GTX 1050"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-7300HQ"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 630,NVIDIA GeForce GTX 1050 Ti"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i7-7700HQ"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"NVIDIA GeForce GTX 1060,Intel HD Graphics 630"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i7-7700HQ"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel Iris Pro Graphics"}
+{"Feature":"16 GB"}
+{"Feature":"Intel Core i7"}
+{"Feature":"15.4"}
+{"Feature":"macOS"}
+{"Feature":"Intel HD Graphics 500"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3350"}
+{"Feature":"13.3"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 505"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N4200"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 520"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-6006U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 400"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3060"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 405"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N3710"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 505"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N4200"}
+{"Feature":"13.3"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics"}
+{"Feature":"2 GB"}
+{"Feature":"Intel Celeron N3050"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 500"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3350"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel HD Graphics 400"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3060"}
+{"Feature":"14"}
+{"Feature":"Brak"}
+{"Feature":"Intel HD Graphics 505"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N4200"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 520"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-6006U"}
+{"Feature":"15.6"}
+{"Feature":"Linux"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"AMD Radeon R4 (APU)"}
+{"Feature":"4 GB"}
+{"Feature":"AMD A6-9220"}
+{"Feature":"17.3"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel HD Graphics 520"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-6006U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"NVIDIA GeForce 940MX,Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel UHD Graphics 620"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-8250U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel UHD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-8250U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 620,NVIDIA GeForce MX150"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 630,AMD Radeon RX 560M"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-7300HQ"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel UHD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-8250U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 630,NVIDIA GeForce GTX 1050"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-7300HQ"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 630,NVIDIA GeForce GTX 1050 Ti"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i7-7700HQ"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"NVIDIA GeForce GTX 1060,Intel HD Graphics 630"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i7-7700HQ"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel Iris Pro Graphics"}
+{"Feature":"16 GB"}
+{"Feature":"Intel Core i7"}
+{"Feature":"15.4"}
+{"Feature":"macOS"}
+{"Feature":"Intel HD Graphics 500"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3350"}
+{"Feature":"13.3"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 505"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N4200"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 520"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-6006U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 400"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3060"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 405"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N3710"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 505"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N4200"}
+{"Feature":"13.3"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics"}
+{"Feature":"2 GB"}
+{"Feature":"Intel Celeron N3050"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 500"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3350"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel HD Graphics 400"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3060"}
+{"Feature":"14"}
+{"Feature":"Brak"}
+{"Feature":"Intel HD Graphics 505"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N4200"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 520"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-6006U"}
+{"Feature":"15.6"}
+{"Feature":"Linux"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"AMD Radeon R4 (APU)"}
+{"Feature":"4 GB"}
+{"Feature":"AMD A6-9220"}
+{"Feature":"17.3"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel HD Graphics 520"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-6006U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"NVIDIA GeForce 940MX,Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-7100U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel UHD Graphics 620"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-8250U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel UHD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-8250U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}
+{"Feature":"Intel HD Graphics 620,NVIDIA GeForce MX150"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-7200U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 630,AMD Radeon RX 560M"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-7300HQ"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel UHD Graphics 620"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i5-8250U"}
+{"Feature":"14"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 630,NVIDIA GeForce GTX 1050"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i5-7300HQ"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 630,NVIDIA GeForce GTX 1050 Ti"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i7-7700HQ"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"NVIDIA GeForce GTX 1060,Intel HD Graphics 630"}
+{"Feature":"8 GB"}
+{"Feature":"Intel Core i7-7700HQ"}
+{"Feature":"15.6"}
+{"Feature":"Brak"}
+{"Feature":"Intel Iris Pro Graphics"}
+{"Feature":"16 GB"}
+{"Feature":"Intel Core i7"}
+{"Feature":"15.4"}
+{"Feature":"macOS"}
+{"Feature":"Intel HD Graphics 500"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Celeron N3350"}
+{"Feature":"13.3"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 505"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Pentium N4200"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Home PL"}
+{"Feature":"Intel HD Graphics 520"}
+{"Feature":"4 GB"}
+{"Feature":"Intel Core i3-6006U"}
+{"Feature":"15.6"}
+{"Feature":"Windows 10 Pro PL"}

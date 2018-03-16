@@ -1,6 +1,6 @@
 ﻿@model ShopApp.Models.NotebookGPUViewModel
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Notebooks list";
 }
 
 <h2>Index</h2>
@@ -17,9 +17,10 @@
 
 <form asp-controller="Notebooks" asp-action="Index" method="get">
     <p>
-        <select asp-for="GPUs" asp-items="Model.GPUs">
+        <select asp-for="notebookGPU" asp-items="Model.GPUs">
             <option value="">All</option>
         </select>
+
 
         Title: <input type="text" name="searchString">
         <input type="submit" value="Filter" />
@@ -92,7 +93,7 @@
             <td>
                 @{//Html.DisplayFor(modelItem => item.ImageBytes)
                 }
-                <img src="data:image;base64,@System.Convert.ToBase64String(item.ImageBytes)" height="100%"; object-fit: contain'  />
+                <img src="data:image;base64,@System.Convert.ToBase64String(item.ImageBytes)" height="80"; object-fit: contain'  />
             </td>
             @{/*<td>
     @Html.DisplayFor(modelItem => item.ImageData)

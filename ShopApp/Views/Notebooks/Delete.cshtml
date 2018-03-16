@@ -45,7 +45,7 @@
             @Html.DisplayFor(model => model.RouteToImage)
         </dd>
         <dd>
-            @Html.DisplayFor(model => model.ImageBytes)
+            <img src="data:image;base64,@System.Convert.ToBase64String(Model.ImageBytes)" height="100%" ; object-fit: contain' />
         </dd>
         @{/*<dt>
         @Html.DisplayNameFor(model => model.ImageData)
