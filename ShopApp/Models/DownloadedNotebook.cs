@@ -20,18 +20,24 @@ namespace ShopApp.Models
         {
             this.LoggingLevel = WebScraper.LogLevel.All;
             this.Request("https://www.morele.net/laptopy/laptopy/notebooki-laptopy-ultrabooki-31/,,,,,,,,0,,,,/1/", Parse);
+            // todo: extend to the form with changable number of site "0,,,,/{i}/," to download from more pages
         }
 
         public override void Parse(Response response)
-        {
-            var urlFromString = new Regex(@"\b(?:https?://|www\.)\S+\b"); //Get url from string
-            var lastPartOfUrl = new Regex(@"[^/]+(?=/$|$)"); // Get last part of url, in this case "name_of_image.jpg"
+        {   
+            //Get url from string
+            var urlFromString = new Regex(@"\b(?:https?://|www\.)\S+\b"); 
 
-            //string appPath = AppDomain.CurrentDomain.BaseDirectory; // Another method to obtain directory
-            string appPath = System.Environment.CurrentDirectory;  // Get current directory
-            string imageFolderPath = System.IO.Path.Combine(appPath, "wwwroot", "images"); // Create path to the folder with images
+            // Get last part of url, in this case "name_of_image.jpg"
+            var lastPartOfUrl = new Regex(@"[^/]+(?=/$|$)"); 
 
-            DirectoryInfo di = Directory.CreateDirectory(imageFolderPath); // Create folder
+            // Get current directory
+            string appPath = System.Environment.CurrentDirectory;  
+            // Create path to the folder with images
+            string imageFolderPath = System.IO.Path.Combine(appPath, "wwwroot", "images"); 
+
+            // Create folder for our pictures downloaded (only necessary if we are actually downloading them)
+            DirectoryInfo di = Directory.CreateDirectory(imageFolderPath); 
 
             List<string> listOfImageDirectories = new List<string>();
             List<string> listOfImageURLs = new List<string>();
@@ -41,14 +47,15 @@ namespace ShopApp.Models
 
             var webClient = new WebClient();
 
-
-            foreach (var searched_link in response.Css("div > a[title]")) // select category-image from every div, and then contains of a[]
+            // select category-image from every div, and then contains of a[]
+            foreach (var searched_link in response.Css("div > a[title]"))
             {
                 string notebookName = searched_link.Attributes["title"];
                 listOfNames.Add(notebookName);
             }
 
-            foreach (var searched_link in response.Css("div.category-image > a[style*=background-image:url]")) // select category-image from every div, and then contains of a[]
+            // select category-image from every div, and then contains of a[]
+            foreach (var searched_link in response.Css("div.category-image > a[style*=background-image:url]")) 
             {
                 string strTitle = searched_link.Attributes["style"];
                 Match matchedURLToImage = urlFromString.Match(strTitle); // slice to final url
@@ -59,22 +66,26 @@ namespace ShopApp.Models
 
                 if (matchedURLToImage.Success && matchedImageName.Success)
                 {
+                    // if we have correct URL and image name, we can assign it to the list, to later put into the database
                     Console.WriteLine(matchedURLToImage.Value);
                     listOfImageDirectories.Add(matchedImageName.Value);
                     listOfImageURLs.Add(matchedURLToImage.Value);
-                    //DownloadImage(matchedURLToImage.Value, imageFolderPath, 0, 0, false);   // for some reason, it's not working, although the same code in console app works perfectly?
                 }
             }
             
             int notebooksCounter = 1001;
             int howManyNotebooks = 1001;
             decimal tempInch = 0;
-            foreach (var searched_link in response.Css("div.feature-item")) // get every feature of the notebook
+
+            // get every feature of the notebook
+            foreach (var searched_link in response.Css("div.feature-item"))
             {
+                // get the "title" subdivision from the searched link
                 string strFeature = searched_link.Attributes["title"];           
-                Scrape(new ScrapedData() { { "Feature", strFeature } });                  
-                
-                switch (countFeatures) // this is not the pretties way to do that, but it's pretty clean looking and self-explainatory
+                Scrape(new ScrapedData() { { "Feature", strFeature } });
+
+                //assign every feature to the given variable in the object created
+                switch (countFeatures) 
                 {
                     case 0:
                         notebook.GPU = strFeature;
@@ -89,9 +100,10 @@ namespace ShopApp.Models
                         countFeatures++;
                         break;
                     case 3:
-                        if (Decimal.TryParse(strFeature, out tempInch)) //try if this is a correct form of decimal number, or has it only on number after dot
-                            notebook.ScreenSizeInch = decimal.Parse(strFeature);
-                        else
+                        //try if this is a correct form of decimal number, or has it only one number after dot
+                        if (Decimal.TryParse(strFeature, out tempInch)) 
+                            notebook.ScreenSizeInch = tempInch;
+                        else // if it's not correct, create a substring to correctly parse the number
                         {
                             strFeature = strFeature.Substring(0, 2);
                             notebook.ScreenSizeInch = decimal.Parse(strFeature);
@@ -101,10 +113,14 @@ namespace ShopApp.Models
                     case 4:
                         notebook.Name = listOfNames[notebooksCounter - howManyNotebooks];
                         notebook.RouteToImage = listOfImageDirectories[notebooksCounter - howManyNotebooks];
-                        byte[] imageBytes = webClient.DownloadData(listOfImageURLs[notebooksCounter - howManyNotebooks]); // Download image directly to the byte array
+
+                        // Download image directly to the byte array
+                        byte[] imageBytes = webClient.DownloadData(listOfImageURLs[notebooksCounter - howManyNotebooks]); 
                         notebook.ImageBytes = imageBytes;
                         notebooksCounter++;
-                        countFeatures = 0; // break cycle every 4th feature, becouse we are scraping next object in next iteration
+
+                        // break cycle every 4th feature, becouse we are scraping next object in next iteration
+                        countFeatures = 0; 
                         notebookList.Add(notebook);
                         notebook = new Notebook();
                         break;

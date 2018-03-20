@@ -26,25 +26,25 @@ namespace ShopApp.Controllers
             IQueryable<string> GPUQuery = from n in _context.Notebook
                                             orderby n.GPU
                                             select n.GPU;
- 
+            // select notebooks from database
             var notebooks = from n in _context.Notebook
                          select n;
 
             if (!String.IsNullOrEmpty(searchString))
-            {
-                notebooks = notebooks.Where(s => s.Name.Contains(searchString)); // return notebooks with given name
+            {   // return notebooks with given name
+                notebooks = notebooks.Where(s => s.Name.Contains(searchString)); 
             }
 
             if (!String.IsNullOrEmpty(notebookGPU))
-            {
-                notebooks = notebooks.Where(x => x.GPU == notebookGPU); // returns notebooks with given GPU
+            {   // returns notebooks with given GPU
+                notebooks = notebooks.Where(x => x.GPU == notebookGPU); 
             }
 
             // Create list with above conditions
             var notebookGPUType = new NotebookGPUViewModel();
             notebookGPUType.GPUs = new SelectList(await GPUQuery.Distinct().ToListAsync());
             notebookGPUType.notebooksList = await notebooks.ToListAsync();
-
+            // Send summed up view with  aboveconditions to the view
             return View(notebookGPUType);
         }
 
@@ -81,7 +81,7 @@ namespace ShopApp.Controllers
         // POST: Notebooks/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Name,GPU,RAM,Processor,ScreenSizeInch,RouteToImage,ImageBytes"/*,ImageData,Length,Width,Height"*/)] Notebook notebook)
+        public async Task<IActionResult> Create([Bind("ID,Name,GPU,RAM,Processor,ScreenSizeInch,RouteToImage,ImageBytes")] Notebook notebook)
         {
             if (ModelState.IsValid)
             {
@@ -136,7 +136,7 @@ namespace ShopApp.Controllers
         // POST: Notebooks/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,GPU,RAM,Processor,ScreenSizeInch,RouteToImage,ImageBytes"/*,ImageData,Length,Width,Height"*/)] Notebook notebook)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,GPU,RAM,Processor,ScreenSizeInch,RouteToImage,ImageBytes")] Notebook notebook)
         {
             if (id != notebook.ID)
             {
