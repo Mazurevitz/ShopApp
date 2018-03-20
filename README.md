@@ -10,3 +10,8 @@
 - :+1: Show description of each and miniature
 - :+1: Details available
 - :+1: Putting raw image data as byte[] to the database and proper display
+
+### Preview
+<p align="center">
+  <img src="2018-03-20 01_55_58-Notebooks list - Shop App.png" width="700"/>
+</p>
