@@ -11,6 +11,13 @@
 - :+1: Details available
 - :+1: Putting raw image data as byte[] to the database and proper display
 
+## To do:
+- [X] Change parse methods
+- [X] Delete commented code
+- [ ] Remove logic from model and move to separate logic base
+- [ ] Proper database migration
+
+
 ### Preview
 <p align="center">
   <img src="2018-03-20 01_55_58-Notebooks list - Shop App.png" width="700"/>
